@@ -4,12 +4,9 @@
 }
 
 body {
-    background-image: url(img/ethan-hu-590309-unsplash.jpg);
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-size: cover;
     text-align: center;
     font-family: "Ubuntu";
+    background-color: #d9d7d7;
 }
 
 
@@ -34,14 +31,14 @@ h2 {
     font-size: 35px;
     font-weight: 42px;
     margin-bottom : 25px;
-    
+
 }
 
 .info-jeux {
     border: 2px solid black;
     background-color: white;
     width: 75%;
-    border-radius: 6px;  
+    border-radius: 6px;
 }
 
 .avatar {
@@ -95,8 +92,8 @@ li {
     margin-top: 20px;
 }
 
-.black { 
-    background-color: #fff; 
+.black {
+    background-color: #fff;
     opacity: 0.5;
 }
 
@@ -107,7 +104,7 @@ li {
 }
 
 .styled-select {
-   
+
    height: 29px;
    overflow: hidden;
    width: 200px;
@@ -127,7 +124,7 @@ select {
     font-weight: 24px;
     text-align: center;
 }
- 
+
 button {
     width: 100px;
     height: 50px;
@@ -139,7 +136,7 @@ button {
     transition: all 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
-    -o-transition: all 1s; 
+    -o-transition: all 1s;
 }
 
 button:hover {
@@ -175,7 +172,7 @@ button:hover {
     opacity: 0.5;
     text-shadow: 2px 2px yellow;
     height: 250px;
-    
+
 }
 
 .cartes {
@@ -184,24 +181,15 @@ button:hover {
     border-radius: 6px;
     box-shadow: 2px 2px black;
     margin: 15px;
-    
 }
 
-.carte1 {
-    background-image: url('img/carte1.jpeg');
-}
-
-.carte2 {
-    background-image: url('img/carte2.jpeg');
-}
-
-.carte3 {
+.carte {
     background-image: url('img/carte3.jpeg');
 }
 
 .cartename {
-    font-size : 48px;
-    font-weight: 56px;
+    font-size : 18px;
+    font-weight: 40px;
 }
 
 /*création du grid*/
