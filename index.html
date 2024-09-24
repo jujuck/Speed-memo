@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memorize</title>
+        <meta charset="utf-8">
+        
+        <!-- Lien vers les polices -->
+        <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet"> <!-- Titre -->
+         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> <!-- p -->
+        <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet"> <!-- carte -->
+        
+        <!-- lien vers le css interne-->
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="col-2">
+                    <img LOGO>
+                </div>
+                <div class="col-4">
+                    <h1>Memorize</h1>
+                    <h2>Testez votre mémoire</h2>
+                </div>
+                <div class="col-2 info-jeux">
+                    <img src="img/avatar.png" class="avatar">
+                    <table>
+                        <tr>
+                            <td><label>Points</label></td>
+                            <td class="right"><span id="points"></span></td>
+                        <tr>
+                            <td><label>Temps de jeu</label></td>
+                            <td class="right"><span id="tpsJeux"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label>Nombre d'essai</label></td>
+                            <td class="right"><span id="nbTry"></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>  
+        </header>
+        <section id="formulaire" class="container relative">
+            <div class="formulaire col-8">
+                <h3>Personnaliser votre jeu</h3>
+                <p>Choississez votre nombre de cartes à distribuer, votre temps de mémorisation et votre thème de carte pour un jeu sans cesse nouveau !!!</p>
+                <ul>
+                    <li><Label>Nombre de cartes</Label> 
+                        <div class="styled-select black rounded">
+                            <select name="difficulte" id="difficulte">
+                                <option value="1" selected>8</option>
+                                <option value="3">16</option>
+                                <option value="5">24</option>
+                                <option value="7">32</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li><Label>Temps de mémorisation</Label>
+                        <div class="styled-select black rounded">
+                            <select name="vitesse" id="vitesse">
+                                <option value="5000" selected>5 sec</option>
+                                <option value="3000">3 sec</option>
+                                <option value="1000">1 sec</option>
+                                <option value="300">Hyper Fort</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li><Label>Thèmes</Label>
+                        <div class="styled-select black rounded">
+                            <select name="theme" id="theme">
+                                <option value="carte1" selected>1</option>
+                                <option value="carte2">2</option>
+                                <option value="carte3">3</option>
+                            </select>
+                        </div>
+                    </li>
+                    <button onclick="distribution()">Distribuer</button>
+                </ul>
+            </div>
+        </section>
+        <div class="contenu" id="jeux">
+        </div>
+        <div class="container">
+            <div class="col-8">
+                <div id="recommencer">
+                    <button class="btn" onclick="recommencer()" >Recommencer</button>
+                </div>
+            </div>
+        </div>
+        <p>Photo by Ethan Hu on Unsplash</p>
+        <script src="js/script.js"></script>
+    </body>
+</html>

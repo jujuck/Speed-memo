@@ -1,0 +1,44 @@
+X   1/ Création de la structure Html et CSs simplifié
+
+X   2/Création d'une base de données petites (8 cartes).
+
+X   3/Distribution des cartes et affichages (css, html)
+    => fonction new XMLHttprequest + boucle for + innnerHtml
+    
+X   4/Création d'une variables aléatoire + suppression de la carte du Array
+
+X   5/Récupération de la carte 1 et carte 2 puis réinitialisation de l'affichage.
+
+X   6/ Comparaison des valeurs des cartes
+       X 1/ Identique => 1 pts et pas de réinitialisation des cartes
+       X 2/ Différentes => 0 pts et réinitialisation.
+       X 3/ affichage des cartes 5 secondes avant réinitialisation pour mémorisation
+        4/ Possibilité de relancer la recherche (temps de mémorisation max);
+       
+X   7/ Blocage des cartes validées
+    
+X   8/ Blocage des onclick pendant 3sec de memorisation
+    
+X   9/ Affichage 
+        X 1/Points gagnés
+        X 2/Nombre d'essaie
+        X 3/difficluté
+        
+    10/ Affichage Chrono
+        X 1/ lancement chrono
+        X 2/ Minutes et secondes
+         3/ Arrêt chrono
+        
+    11/ Création de difficulté et personniification
+        X 1/ nb de cartes 8 - 12 - 16 - 20
+        X 2/ gestion du temps de mémorisation
+        X 3/ thèmes
+        
+    12/ CSS des cartes
+        X 1/ design de cartes
+        X 2/ personnification
+        
+    13/ Css de la page
+        X 1/ générale
+        X 2/ personnification
+        
