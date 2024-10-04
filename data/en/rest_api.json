@@ -1,0 +1,146 @@
+[
+  {
+    "name": "REST stands for Representational State Transfer",
+    "num": "1",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "It is an architectural style for designing networked applications",
+    "num": "2",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "Used to request data from a server",
+    "num": "3",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "GET /resource",
+    "num": "4",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "Used to send data to the server",
+    "num": "5",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "POST /resource",
+    "num": "6",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "Replaces all the current data with the new one",
+    "num": "7",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "PUT /resource/id",
+    "num": "8",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "Used to partially update a resource",
+    "num": "9",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "PATCH /resource/id",
+    "num": "10",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "Removes a resource",
+    "num": "11",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "DELETE /resource/id",
+    "num": "12",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "OK indicates a successful request",
+    "num": "13",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Status 200",
+    "num": "14",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Created means the request was successful and a resource was created",
+    "num": "15",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "Status 201",
+    "num": "16",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "Bad Request means the server could not understand the request",
+    "num": "17",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "Status 400",
+    "num": "18",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "Unauthorized means the client must authenticate to get the requested response",
+    "num": "19",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "Status 401",
+    "num": "20",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "Not Found means the server can’t find the requested resource",
+    "num": "21",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "Status 404",
+    "num": "22",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "Internal Server Error indicates a server-side error",
+    "num": "23",
+    "value": "12",
+    "image": ""
+  },
+  {
+    "name": "Status 500",
+    "num": "24",
+    "value": "12",
+    "image": ""
+  }
+]

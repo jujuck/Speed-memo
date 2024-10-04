@@ -1,0 +1,146 @@
+[
+  {
+    "name": "tous les nombres en TypeScript sont soit des valeurs flottantes, soit des BigIntegers",
+    "num": "1",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": ": number",
+    "num": "2",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "TypeScript utilise également des guillemets doubles (\") ou simples (') pour entourer les données textuelles",
+    "num": "3",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": ": string",
+    "num": "4",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "Les types Array peuvent être écrits de deux manières",
+    "num": "5",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": ": number[] ou Array<number>",
+    "num": "6",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "un enum est une manière de donner des noms plus explicites à des ensembles de valeurs numériques",
+    "num": "7",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "enum Color { Red, Green, Blue }",
+    "num": "8",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "Les alias de type créent un nouveau nom pour un type",
+    "num": "9",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "type Animal = { name: string }",
+    "num": "10",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "Interfaces vs. Alias de Type",
+    "num": "11",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "Presque toutes les fonctionnalités d'une interface sont disponibles dans un type, la principale différence est qu'un type ne peut pas être rouvert pour ajouter de nouvelles propriétés, contrairement à une interface qui est toujours extensible.",
+    "num": "12",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "Types conditionnels",
+    "num": "13",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Le Pipe : 'string' | 'number'",
+    "num": "14",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Propriétés optionnelles (properties?: number)",
+    "num": "15",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "vous pouvez utiliser l'opérateur de chaînage optionnel pour simplifier le travail avec les types nullables.",
+    "num": "16",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "Un type d'intersection crée un nouveau type en combinant plusieurs types existants.",
+    "num": "17",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "type typeAB = typeA & typeB;",
+    "num": "18",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "Le type utilitaire Omit de TypeScript crée un nouveau type en excluant des propriétés spécifiques.",
+    "num": "19",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "type NewType = Omit<OriginalType, 'Key1' | 'Key2'>",
+    "num": "20",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "Type d'événement Submit dans un formulaire HTML",
+    "num": "21",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "const _onSubmit = (e: SyntheticEvent<HTMLFormElement, SubmitEvent>) => {}",
+    "num": "22",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "TypeScript est un langage de programmation de haut niveau, libre et open-source",
+    "num": "23",
+    "value": "12",
+    "image": ""
+  },
+  {
+    "name": "développé par Microsoft qui ajoute un typage statique avec des annotations de type optionnelles à JavaScript.",
+    "num": "24",
+    "value": "12",
+    "image": ""
+  }
+]

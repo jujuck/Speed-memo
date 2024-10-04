@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Define a new table in the database",
+    "num": "1",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "CREATE TABLE table_name (column1 datatype, column2 datatype, ...);",
+    "num": "2",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "Add new records into a table",
+    "num": "3",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);",
+    "num": "4",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "Modify existing records in a table",
+    "num": "5",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "UPDATE table_name SET column1 = value1 WHERE condition;",
+    "num": "6",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "Remove records from a table",
+    "num": "7",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "DELETE FROM table_name WHERE condition;",
+    "num": "8",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "Query data from a database",
+    "num": "9",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "SELECT column1, column2 FROM table_name WHERE condition;",
+    "num": "10",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "Filter records",
+    "num": "11",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "WHERE column = value;",
+    "num": "12",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "Combine rows from two or more tables",
+    "num": "13",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "SELECT columns FROM table1 INNER JOIN table2 ON table1.column = table2.column;",
+    "num": "14",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Arrange identical data into groups",
+    "num": "15",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "SELECT column, COUNT(*) FROM table_name GROUP BY column;",
+    "num": "16",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "Used to filter records after GROUP BY",
+    "num": "17",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "SELECT column, COUNT(*) FROM table_name GROUP BY column HAVING condition;",
+    "num": "18",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "Modify an existing table structure",
+    "num": "19",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "ALTER TABLE table_name ADD column_name datatype;",
+    "num": "20",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "Delete an existing table from the database",
+    "num": "21",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "DROP TABLE table_name;",
+    "num": "22",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "Delete all records from a table and any related sequence",
+    "num": "23",
+    "value": "12",
+    "image": ""
+  },
+  {
+    "name": "TRUNCATE TABLE table_name;",
+    "num": "24",
+    "value": "12",
+    "image": ""
+  }
+]

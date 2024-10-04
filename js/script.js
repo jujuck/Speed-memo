@@ -18,6 +18,7 @@ var formulaireElt = document.getElementById("formulaire");
 var recommencerElt = document.getElementById("recommencer");
 var tpsMemorisation;
 var themes;
+var lang;
 
 //fonction de mise à jour de l'affihcage du score
 function affichageScore(points, nbTry) {
@@ -87,7 +88,7 @@ function jouer(IdCarte, Value) {
 //Création du menu central
 function initCarte(numJeux) {
   var myRequestCarte = new XMLHttpRequest();
-  myRequestCarte.open("GET", `data/${themes}.json`);
+  myRequestCarte.open("GET", `data/${lang}/${themes}.json`);
 
   myRequestCarte.onreadystatechange = function () {
     if (myRequestCarte.readyState === 4) {
@@ -127,6 +128,7 @@ function distribution() {
   difficulteElt = document.getElementById("difficulte").value;
   tspMemorisation = document.getElementById("vitesse").value;
   themes = document.getElementById("theme").value;
+  lang = document.getElementById("langues").value;
   initCarte(1);
   affichageScore(points, nbTry);
   chrono();

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "REST signifie Representational State Transfer",
+    "num": "1",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "C'est un style architectural pour concevoir des applications en réseau",
+    "num": "2",
+    "value": "1",
+    "image": ""
+  },
+  {
+    "name": "Utilisé pour demander des données à un serveur",
+    "num": "3",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "GET /resource",
+    "num": "4",
+    "value": "2",
+    "image": ""
+  },
+  {
+    "name": "Utilisé pour envoyer des données au serveur",
+    "num": "5",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "POST /resource",
+    "num": "6",
+    "value": "3",
+    "image": ""
+  },
+  {
+    "name": "Remplace toutes les données actuelles par les nouvelles",
+    "num": "7",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "PUT /resource/id",
+    "num": "8",
+    "value": "4",
+    "image": ""
+  },
+  {
+    "name": "Utilisé pour mettre à jour partiellement une ressource",
+    "num": "9",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "PATCH /resource/id",
+    "num": "10",
+    "value": "5",
+    "image": ""
+  },
+  {
+    "name": "Supprime une ressource",
+    "num": "11",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "DELETE /resource/id",
+    "num": "12",
+    "value": "6",
+    "image": ""
+  },
+  {
+    "name": "OK indique une requête réussie",
+    "num": "13",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Statut 200",
+    "num": "14",
+    "value": "7",
+    "image": ""
+  },
+  {
+    "name": "Créé signifie que la requête a réussi et qu'une ressource a été créée",
+    "num": "15",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "Statut 201",
+    "num": "16",
+    "value": "8",
+    "image": ""
+  },
+  {
+    "name": "Mauvaise requête signifie que le serveur n'a pas pu comprendre la requête",
+    "num": "17",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "Statut 400",
+    "num": "18",
+    "value": "9",
+    "image": ""
+  },
+  {
+    "name": "Non autorisé signifie que le client doit s'authentifier pour obtenir la réponse demandée",
+    "num": "19",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "Statut 401",
+    "num": "20",
+    "value": "10",
+    "image": ""
+  },
+  {
+    "name": "Non trouvé signifie que le serveur ne peut pas trouver la ressource demandée",
+    "num": "21",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "Statut 404",
+    "num": "22",
+    "value": "11",
+    "image": ""
+  },
+  {
+    "name": "Erreur interne du serveur indique une erreur côté serveur",
+    "num": "23",
+    "value": "12",
+    "image": ""
+  },
+  {
+    "name": "Statut 500",
+    "num": "24",
+    "value": "12",
+    "image": ""
+  }
+]
